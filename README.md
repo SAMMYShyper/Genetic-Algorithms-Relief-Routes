@@ -1,4 +1,4 @@
-# CAI4002 Project — Relief Route Scheduling (Local Beam Search vs Genetic Algorithm)
+# Relief Route Scheduling (Local Beam Search vs Genetic Algorithm)
 
 ## Project Overview
 This project studies a **route optimization problem** inspired by emergency logistics after a major storm.  
