@@ -51,8 +51,6 @@ This phase evaluates whether GA can maintain diversity better and improve soluti
 
 ---
 
-## Study Design
-
 ### Required baseline
 Beam Search tested with:
 - `k ∈ {4, 8, 16}`
