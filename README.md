@@ -15,8 +15,6 @@ The project is implemented in **Jupyter Notebook (Python)** and compares:
 - **Phase 1:** Local Beam Search  
 - **Phase 2:** Genetic Algorithm (GA)
 
----
-
 ## Problem Context
 The scenario models relief delivery to shelters/clinics/distribution points under urgency constraints.  
 Locations are represented as 2D points, and travel cost is modeled with **Euclidean distance**.
