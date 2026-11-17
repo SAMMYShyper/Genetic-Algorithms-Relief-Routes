@@ -26,19 +26,6 @@ The map is treated as a **fully connected graph**:
 - Direct travel is possible between any two nodes
 - Cost between nodes is calculated from coordinates
 
----
-
-## Educational Goals
-This project is designed to develop and demonstrate:
-
-- Practical understanding of **local search vs evolutionary search**
-- Competency in **permutation-based optimization**
-- Ability to analyze **failure modes** in search algorithms
-- Skills in designing and evaluating **controlled experiments**
-- Data-driven reporting using **mean/std across random seeds**
-
----
-
 ## Algorithms Covered
 
 ### 1) Local Beam Search
@@ -85,19 +72,6 @@ Each configuration is run across multiple seeds and summarized with:
 - Mean runtime (ms)
 - Mean evaluations
 
----
-
-## Implemented Student Components
-
-This notebook includes student implementations for:
-
-- `tournament_select(...)`
-- `your_custom_mutation(...)`
-
-along with interpretation and comparison against provided operators.
-
----
-
 ## Main Findings (from current runs)
 From the reported results in the notebook:
 
@@ -111,7 +85,7 @@ From the reported results in the notebook:
 
 ---
 
-## Tech Stack & Skills Demonstrated
+## Tech Stack 
 
 - **Language/Environment:** Python in Jupyter Notebook
 - **Libraries:** `random`, `time`, `math`, `numpy`, `pandas`, `matplotlib`, `dataclasses`, `typing`
@@ -119,42 +93,18 @@ From the reported results in the notebook:
 
 ---
 
-## Repository Contents
-
-- `project_2_genetic_algorithms.ipynb` — full project notebook (implementation + experiments + analysis)
-- `README.md` — project summary/documentation
-
----
-
 ## How to Run
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/SAMMYShyper/project_2_cai_4002.git
-   cd project_2_cai_4002
+   git clone https://github.com/SAMMYShyper/Genetic-Algorithms-Relief-Routes.git
+   cd Genetic-Algorithms-Relief-Routes
    ```
 
-2. Open `project_2_genetic_algorithms.ipynb` in JupyterLab, Jupyter Notebook, or VS Code.
+2. Open Jupyter Notebook or other editor.
 
 3. Run all notebook cells in order.
 
 4. For full report-quality evaluation, use at least:
    - `algo_seeds = range(10)`
    - one fixed clustered instance seed
-
----
-
-## Learning Outcomes
-By completing this project, you demonstrate the ability to:
-
-- Build optimization algorithms for permutation spaces
-- Diagnose search stagnation and diversity collapse
-- Implement and compare GA operators rigorously
-- Interpret stochastic results using statistical summaries
-- Communicate technical findings in a reproducible workflow
-
----
-
-## Author
-**SAMMYShyper**  
-CAI 4002 — Project 2
