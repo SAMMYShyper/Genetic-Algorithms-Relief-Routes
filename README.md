@@ -104,3 +104,5 @@ From the reported results in the notebook:
 4. For full report-quality evaluation, use at least:
    - `algo_seeds = range(10)`
    - one fixed clustered instance seed
+
+#### Author: sammyshyper, answering CAI4002 project
